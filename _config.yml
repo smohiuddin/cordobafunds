@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 github: 
-  project_tagline: Real estate funds
+  project_tagline: Real Estate Funds
   is_project_page: false
 plugins:
   - jemoji
