@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cordoba Funds</title>
+  <meta name="description" content="Cash-only investment funds">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      background: #fff;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .outer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 20px;
+      min-height: 100vh;
+    }
+
+    .inner {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      width: 960px;
+      max-width: 100%;
+      padding: 80px 0;
+    }
+
+    .site-title {
+      font-size: 24px;
+      font-weight: 650;
+      font-variation-settings: "opsz" 32, "wght" 650;
+      letter-spacing: -0.02em;
+      line-height: 1em;
+      color: #000;
+      font-feature-settings: "cv01" on, "cv09" on, "cv11" on, "cv05" on, "ss03" on;
+    }
+
+    .site-subtitle {
+      font-size: 18px;
+      font-weight: 600;
+      font-variation-settings: "opsz" 32, "wght" 600;
+      letter-spacing: -0.02em;
+      line-height: 1em;
+      color: #999;
+      font-feature-settings: "cv01" on, "cv09" on, "cv11" on, "cv05" on, "ss03" on;
+    }
+
+    .body-text {
+      font-size: 15px;
+      font-weight: 500;
+      font-variation-settings: "opsz" 24, "wght" 500;
+      letter-spacing: -0.01em;
+      line-height: 1.3em;
+      color: #777;
+      width: 400px;
+      max-width: 100%;
+      font-feature-settings: "cv01" on, "cv09" on, "cv11" on, "cv05" on, "ss03" on;
+    }
+
+    .attribution {
+      color: #999;
+      letter-spacing: 0em;
+    }
+
+    .companies-label {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      line-height: 1.3em;
+      color: #999;
+      font-feature-settings: "cv01" on, "cv09" on, "cv11" on, "cv05" on, "ss03" on;
+    }
+
+    .companies-row {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      width: 100%;
+    }
+
+    .company {
+      font-size: 15px;
+      font-weight: 500;
+      font-variation-settings: "opsz" 24, "wght" 500;
+      letter-spacing: -0.01em;
+      line-height: 1.3em;
+      color: #777;
+      font-feature-settings: "cv01" on, "cv09" on, "cv11" on, "cv05" on, "ss03" on;
+    }
+
+    .company-neeyah { width: 300px; }
+    .company-souq   { width: 343px; }
+
+    .company a {
+      color: #09f;
+      text-decoration: none;
+    }
+
+    .company a:hover {
+      color: #08f;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 809px) {
+      .inner { padding: 40px 0; }
+      .companies-row { flex-direction: column; gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="outer">
+    <div class="inner">
+
+      <div>
+        <div class="site-title">Cordoba Funds</div>
+        <div class="site-subtitle">Cash-only investment funds</div>
+      </div>
+
+      <div>
+        <div class="body-text">
+          Cordoba Funds started as a way to pool capital from friends and family who wanted to invest alongside us in single-family homes. Since 2016, we have raised over $30M of capital backed by 300+ investors, with investments across 100+ single-family homes, retail strip centers and land development. Cordoba Funds has operated more than 10 funds across the country with six funds successfully completed.
+          <br><br>
+          Throughout all of this, we've never compromised on our principles of staying debt-free and always personally investing our own capital.
+          <br><br>
+          <span class="attribution">Razi and Safeer Mohiuddin</span>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:20px">
+        <div class="companies-label">Our Companies</div>
+        <div class="companies-row">
+          <div class="company company-neeyah">
+            <a href="https://neeyah.com" target="_blank" rel="noopener">Neeyah</a>
+            <br><br>
+            Reinventing homeownership<strong>.</strong> Homeowners and investors co-owning homes debt-free.
+          </div>
+          <div class="company company-souq">
+            <a href="https://souq.capital" target="_blank" rel="noopener">Souq Capital</a>
+            <br><br>
+            Fueling growth for high-performance businesses with debt-free, aligned working capital.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
