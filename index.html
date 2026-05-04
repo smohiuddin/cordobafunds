@@ -87,7 +87,7 @@
     .companies-row {
       display: flex;
       flex-direction: row;
-      gap: 8px;
+      gap: 50px;
       width: 100%;
     }
 
@@ -112,6 +112,12 @@
     .company a:hover {
       color: #08f;
       text-decoration: underline;
+    }
+
+    .companies-section {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
     }
 
     @media (max-width: 809px) {
@@ -139,7 +145,7 @@
         </div>
       </div>
 
-      <div style="display:flex;flex-direction:column;gap:20px">
+      <div class="companies-section">
         <div class="companies-label">Our Companies</div>
         <div class="companies-row">
           <div class="company company-neeyah">
